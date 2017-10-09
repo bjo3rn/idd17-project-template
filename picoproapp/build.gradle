@@ -37,5 +37,6 @@ android {
 
 dependencies {
     provided 'com.google.android.things:androidthings:0.4-devpreview'
+    compile 'com.android.volley:volley:1.0.0'
 
 }

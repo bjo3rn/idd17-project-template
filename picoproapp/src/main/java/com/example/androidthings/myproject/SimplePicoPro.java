@@ -136,6 +136,9 @@ public abstract class SimplePicoPro extends SimpleBoard {
     public void setActivity(Activity a) {
         activity = a;
     }
+    public Activity getActivity() {
+        return activity;
+    }
     void printCharacterToScreen(char c) {
         if (activity == null) {
             Log.e(TAG,"printChar: activity is null");

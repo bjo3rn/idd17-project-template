@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     /** CHANGE THE RIGHT-HAND SIDE OF THIS LINE TO THE NAME OF YOUR APPLICATION CLASS **/
-    private SimplePicoPro myBoardApp = new Hw3TemplateApp();
+    private SimplePicoPro myBoardApp = new HttpTestApp();
 
     /** DON'T CHANGE THE CODE BELOW - PUT YOUR CODE INTO YOUR APPLICATION CLASS **/
     private Handler handler = new Handler();
